@@ -1,6 +1,3 @@
-import numpy as np
-import csv
-import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.spatial import distance
 

@@ -1,8 +1,5 @@
 import numpy as np
-import csv
-import matplotlib.pyplot as plt
 import pandas as pd
-from scipy.spatial import distance
 
 
 def normalize_nfl_combine(nfl, nfl_2019, position):

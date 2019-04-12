@@ -1,8 +1,4 @@
-import numpy as np
 import csv
-import matplotlib.pyplot as plt
-import pandas as pd
-from scipy.spatial import distance
 
 
 def fantasydata(ffdatain, lst):
@@ -27,23 +23,21 @@ def fantasydata(ffdatain, lst):
         # no * or +
         if ((lst[0] == row[0]) or (lst[1] == row[0]) or (lst[2] == row[0])):
             string = row[3]  # all data is in string format
-            points += int(string)  # convert to int and add for total points
-            seasons += 1;
-            # print(row)
+            if(row[3] != ''):
+                points += int(string)  # convert to int and add for total points
+                seasons += 1;
 
         # just *
         if ((lst2[0] == row[0]) or (lst2[1] == row[0]) or (lst2[2] == row[0])):
             string = row[3]  # all data is in string format
             points += int(string)  # convert to int and add for total points
             seasons += 1;
-            # print(row)
 
         # just *+
         if ((lst3[0] == row[0]) or (lst3[1] == row[0]) or (lst3[2] == row[0])):
             string = row[3]  # all data is in string format
             points += int(string)  # convert to int and add for total points
             seasons += 1;
-            # print(row)
 
     # average points
     if (points != 0):

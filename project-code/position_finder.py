@@ -2,6 +2,7 @@
 # change so it uses pandas if u know how
 import csv
 
+
 def position_finder(rookie_name, rookiedata):
     pos_finder = open(rookiedata)
     csv_pos_finder = csv.reader(pos_finder) # reads csv file
