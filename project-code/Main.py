@@ -1,11 +1,17 @@
 import pandas as pd
 import position_finder, k_nearest, fantasydata, normalize_NFL_combine
 import csv
+#import requests
 
 # Dataset urls, this will be online links
 nfl_combine_data = "/home/gotts/Desktop/E222/Project/combine_data.csv"
+#nfl_combine_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
+
 nfl_2019_combine_data = "/home/gotts/Desktop/E222/Project/2019_combine_data.csv"
+#nfl_2019_combine_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
+
 fantasy_data = "/home/gotts/Desktop/E222/Project/ffdata.csv"
+#fantasy_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
 
 # Pandas read in, used in normalize_NFL_combine and k_nearest
 nfl_pd = pd.read_csv(nfl_combine_data)
