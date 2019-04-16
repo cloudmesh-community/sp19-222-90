@@ -3,6 +3,11 @@ import position_finder, k_nearest, fantasydata, normalize_NFL_combine
 import csv
 #import requests
 
+# add int_it's
+# package like prime number example
+# Use rest to fetch data
+
+
 # Dataset urls, this will be online links
 nfl_combine_data = "/home/gotts/Desktop/E222/Project/combine_data.csv"
 #nfl_combine_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
@@ -23,11 +28,11 @@ csv_pos_finder = csv.reader(name_finder)  # reads csv file
 
 # Empty Lists to Append to
 name_out = []
-points_out= []
+points_out = []
 game_out = []
 
 # This will be inputted. Options: WR, RB, TE, QB, ALL
-position_compare = 'WR'
+position_compare = 'RB'
 # If we have an 'All" option in our Html, this will allow us to sort all positions
 position = position_compare
 
