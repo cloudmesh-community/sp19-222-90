@@ -1,0 +1,6 @@
+flask
+connexion[swagger-ui]
+pandas
+scipy
+numpy
+csv

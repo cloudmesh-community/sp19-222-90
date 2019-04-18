@@ -30,16 +30,6 @@ paths:
           description: "Rookie info"
           schema: 
             $ref: "#/definitions/MAIN"
-  /hello:
-    get:
-      tags:
-        - HELLO
-      operationId: hello.hello
-      responses:
-        "200":
-          description: "Hello"
-          schema:
-            $ref: "#/definitions/HELLO"
 definitions:
   MAIN:
     type: "object"
