@@ -116,4 +116,5 @@ target/
 
 paper/report.pdf
 
-
+.vscode/
+settings.json
