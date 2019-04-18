@@ -9,14 +9,12 @@ import requests
 
 
 # Dataset urls, this will be online links
-nfl_combine_data = requests.get("https://drive.google.com/uc?export=download&id=1u78q_3I1ldcqOTjeupvOM3ZwJGNt9-xt")
-#nfl_combine_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
+nfl_combine_data = requests.get("https://drive.google.com/uc?export=download&id=1eSdscNIEaiyswQAq_acfbBLpUfiJRP4i")
 
-nfl_2019_combine_data = requests.get("https://drive.google.com/uc?export=download&id=1LXhqKbCtBNQYupNhSWId6t4dpGHFdfWj")
-#nfl_2019_combine_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
+nfl_2019_combine_data = requests.get("https://drive.google.com/uc?export=download&id=1g7CbEpdtWSQQGJGUWcwBieWkqPgBsmw2")
 
-fantasy_data = requests.get("https://drive.google.com/uc?export=download&id=1JZefrJ7IrF7nRFpT9TvhoTm_nd8JWNok")
-#fantasy_data = requests.get('https://docs.google.com/spreadsheets/d/1JWyqpXNCblMogJ0CydsgleBUPaZ1V1zc1t01FmMO3P8/edit?usp=sharing')
+fantasy_data = requests.get("https://drive.google.com/uc?export=download&id=19rzVI1XLfHbPth7zN1T7BebwZsMp6AO_")
+
 
 # Pandas read in, used in normalize_NFL_combine and k_nearest
 nfl_pd = pd.read_csv(nfl_combine_data)
