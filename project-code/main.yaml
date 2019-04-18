@@ -1,0 +1,50 @@
+swagger: "2.0"
+info: 
+  version: "0.0.1"
+  title: "NFL Rookie Statistics Analysis"
+  description: "A service that compares rookies to currently players and predicts their fantasy football performance"
+  termsOfService: "http://swagger.io/terms/"
+  contact: 
+    name: "Cloudmesh REST Service Example"
+  license: 
+    name: "Apache"
+host: "localhost:8080"
+basePath: "/project-code"
+schemes: 
+  - "http"
+consumes: 
+  - "application/json"
+produces: 
+  - "application/json"
+paths: 
+  /main:
+    get:
+      tags:
+        - main
+      operationId: main
+      description: "Returns desired rookie info"
+      produces: 
+        - "application/json"
+      responses: 
+        "200":
+          description: "Rookie info"
+          schema: 
+            $ref: "#/definitions/MAIN"
+  /hello:
+    get:
+      tags:
+        - HELLO
+      operationId: hello.hello
+      responses:
+        "200":
+          description: "Hello"
+          schema:
+            $ref: "#/definitions/HELLO"
+definitions:
+  MAIN:
+    type: "object"
+    required: 
+      - "model"
+    properties: 
+      model:
+        type: "string"
