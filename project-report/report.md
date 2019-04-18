@@ -22,19 +22,7 @@ TBD
 
 ## Introduction
 
-One possible way of structuring the document.
-We may have to tweak this example as we progress.
-
-Make sure paragraphs are 80 chars wide 
-
-Place images in an images directory
-
-Use empty lines before and after headings
-
-In [@vonLaszwski-fa18-sample-report] we can find a sample report.
-
-Naturally the headings are just suggestions and you may change them as
-appropriate for your project.
+Who should be my top draft pick in this years fantasy football draft? This is a question that has plagued Americans since the creation of fantasy football, and our project will finally provide an answer to that question. We will be implementing a REST service that will retrieve the 2002 - 2019 NFL Combine measurements and Fantasy points scored for QB’s, WR’s, RB’s, and TE’s over their individual careers. We will use this data to compare players who participated in the 2002 - 2018 combine, with the incoming offensive rookies combine data from 2019. This will allow us to find an NFL player that the rookie is most statistically similar to. Based on this comparison, we will analyze the fantasy data from the veteran player, and rank the rookies potential for success based on the veterans total fantasy points scored from the 2002 - 2018 seasons.
 
 ## Requirements
 
