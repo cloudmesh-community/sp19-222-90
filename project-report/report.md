@@ -114,6 +114,14 @@ MUST BE UNIQUE.**
 ## Dataset
 
 ## Implementation
+---
+### Technologies Used
+---
+#### Rest
+
+#### Docker
+
+#### Yaml
 
 ## Benchmark
 
