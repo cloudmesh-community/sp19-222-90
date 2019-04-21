@@ -113,14 +113,15 @@ MUST BE UNIQUE.**
 
 ## Dataset
 
-## Implementation
+## Implementation / Design
 ---
-### Technologies Used
----
+### Technologies Used:
+
+#### K-Nearest Neighbors
+#### Pandas
+#### Python Design
 #### Rest
-
 #### Docker
-
 #### Yaml
 
 ## Benchmark
