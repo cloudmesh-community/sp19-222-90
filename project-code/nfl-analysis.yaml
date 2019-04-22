@@ -10,30 +10,30 @@ info:
     name: "Apache"
 host: "localhost:8080"
 basePath: "/cloudmesh/nfl-analysis/v1"
-schemes: 
-  - "http"
-consumes: 
-  - "application/json"
-produces: 
-  - "application/json"
 paths: 
-  /results:
+  /results/{position}:
     get:
       tags:
-        - NFL-ANALYSIS
-      operationId: nfl-analysis.hello
-      description: "Returns cpu information of the hosting server"
-      produces: 
-        - "application/json"
+        - NFL
+      parameters:
+        - name: position
+          in: path
+          description: position
+          type: string
+          required: true
+      operationId: nfl-analysis.test
+      produces:
+        - text/html
       responses: 
         "200":
-          description: "NFL FF Prediction"
-          schema: 
-            $ref: "#/definitions/NFL-ANALYSIS"
+          description: "FF data"
+          schema:
+            $ref: "#/definitions/NFL"
 definitions:
-  NFL-ANALYSIS:
-    type: "object"
+  NFL:
+    type: "string"
     properties: 
       model:
         type: "string"
+
 

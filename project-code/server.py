@@ -4,7 +4,7 @@ Main module of the server file
 
 from flask import jsonify
 import connexion
-
+import pandas as pd
 
 # Create the application instance
 app = connexion.App(__name__, specification_dir="./")
@@ -18,7 +18,6 @@ def home():
     msg = {"msg": "This service provides a prediction of an NFL rookie's performance in Fantasy Football league based upon the"}
     {"Fantasy Football statistics of current NFL players which the rookies are most similar to."}
     return jsonify(msg)
-
 
 
 
