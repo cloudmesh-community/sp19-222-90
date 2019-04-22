@@ -21,7 +21,7 @@ paths:
           description: position
           type: string
           required: true
-      operationId: nfl-analysis.test
+      operationId: nfl-analysis.ff_prediction
       produces:
         - text/html
       responses: 

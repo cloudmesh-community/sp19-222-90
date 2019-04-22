@@ -27,7 +27,7 @@ def download(output, url):
     dd(url=url, filename=output_file)
     return "data downloaded"
 
-def test(position):
+def ff_prediction(position):
     #position = 'WR'
     filename = '/nfl_2019_combine_data.csv'
     filename2 = '/nfl_combine_data.csv'
