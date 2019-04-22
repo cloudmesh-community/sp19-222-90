@@ -10,13 +10,16 @@ import connexion
 app = connexion.App(__name__, specification_dir="./")
 
 # Read the yaml file to configure the endpoints
-app.add_api("main.yaml")
+app.add_api("nfl-analysis.yaml")
 
 # create a URL route in our application for "/"
-#@app.route("/")
-#def home():
-#    msg = {"msg": "It's working!"}
-#    return jsonify(msg)
+@app.route("/")
+def home():
+    msg = {"msg": "This service provides a prediction of an NFL rookie's performance in Fantasy Football league based upon the"}
+    {"Fantasy Football statistics of current NFL players which the rookies are most similar to."}
+    return jsonify(msg)
+
+
 
 
 if __name__ == "__main__":
