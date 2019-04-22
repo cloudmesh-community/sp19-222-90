@@ -5,3 +5,8 @@ owner:
   hid: sp19-222-90
   community: e222
   semester: sp19
+project:
+  - title: "Rookie Fantasy Football Predictions"
+    url: https://github.com/cloudmesh-community/sp19-222-90/blob/master/project-report/report.md
+    code: https://github.com/cloudmesh-community/sp19-222-90/tree/master/project-code
+    keywords: "Point Prediction"
