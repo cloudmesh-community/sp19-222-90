@@ -7,22 +7,23 @@
 | github: [:cloud:](https://github.com/cloudmesh-community/proceedings-fa18/blob/master/project-report/report.md)
 | code: [:cloud:](https://github.com/cloudmesh-community/proceedings-fa18/blob/master/project-code)
 
-> If you do a project report only without any code, remove the line
-> with the code url link. Remove this line also ;-)
 
 ---
 
-Keywords: Cloud, Example
+Keywords: KNN, Fantasy Football, REST, Docker
 
 ---
 
 ## Abstract
 
-TBD
+We worked to create a REST service that predicts which NFL Rookies will score the most fantasy football points based on their position and list them. 
 
 ## Introduction
 
-Who should be my top draft pick in this years fantasy football draft? This is a question that has plagued Americans since the creation of fantasy football, and our project will finally provide an answer to that question. We will be implementing a REST service that will retrieve the 2002 - 2019 NFL Combine measurements and Fantasy points scored for QB’s, WR’s, RB’s, and TE’s over their individual careers. We will use this data to compare players who participated in the 2002 - 2018 combine, with the incoming offensive rookies combine data from 2019. This will allow us to find an NFL player that the rookie is most statistically similar to. Based on this comparison, we will analyze the fantasy data from the veteran player, and rank the rookies potential for success based on the veterans total fantasy points scored from the 2002 - 2018 seasons.
+Who should be my top draft picks in this years fantasy football draft? This is a question that has plagued Americans since the creation of fantasy football, especially when it comes to drafting rookies due to their inexperience. For those trying to make an educated pick on an untested rookie, our project, the Rookie Fantasy Football Point Predictor will finally provide some guidance on who is likely to perform for your team.	 
+    Our project utilizes information from three data sets consisting of the 2000-18 NFL Combine stats for all participants, 2019 NFL Combine stats for this years rookies, and 2001-18 Fantasy Football Data for current players. From this data, it was our goal to be able to predict any rookie combine participants fantasy football points per season and per game and rank which rookies will score the most points based on their position. 
+    We employed the K-Nearest Neighbor machine learning algorithm to compare the combine stats of each incoming rookies to current players combine stats and determine who they are most similar to. After finding the current player that is most like each rookie, we average the current players fantasy football points. This gives us a prediction of how many points a rookie while score in the season and per game.  These rookies are then sorted by their football position and ranked by most predicted points to allow one to quickly, and easily decide who the best pick is for a given position.
+
 
 ## Requirements
 
