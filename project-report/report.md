@@ -27,6 +27,10 @@ Our project utilizes information from three data sets consisting of the 2000-18 
 We employed the K-Nearest Neighbor machine learning algorithm to compare the combine stats of each incoming rookies to current players combine stats and determine who they are most similar to. After finding the current player that is most like each rookie, we average the current players fantasy football points. This gives us a prediction of how many points a rookie while score in the season and per game.  These rookies are then sorted by their football position and ranked by most predicted points to allow one to quickly, and easily decide who the best pick is for a given position.
 
 
+## How To Use
+```
+test
+```
 ## Requirements
 
 
