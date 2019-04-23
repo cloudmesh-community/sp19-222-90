@@ -16,7 +16,7 @@ Keywords: KNN, Fantasy Football, REST, Docker
 
 ## Abstract
 
-We worked to create a REST service that predicts which NFL Rookies will score the most fantasy football points based on their position and list them. 
+We created a REST service that predicts which NFL Rookies will score the most fantasy football points based on their position and list them in order. 
 
 ## Introduction
 
