@@ -24,7 +24,7 @@ We created a REST service that predicts which 2019 NFL Rookies will score the mo
 
 ## Introduction
 
-Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in 1962, especially when it comes to drafting rookies due to their inexperience. But why does it even matter, isn't fantasy football is just a game? According to one Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." He goes on to explain that fantasy sports leagues have an, "economic impact estimated at $4.48 billion across the sport industry." \cite{@article:drayer2010effects} Fantasy sports players are always looking for a way to get an edge over their competion; because of that, we utilized the the power of machine learning to create the 'Rookie Fantasy Football Point Predictor' for those trying to make an educated pick, on untested rookie players. Our service will finally provide some data points to assist end users in making more informed decisions.
+Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in 1962, especially when it comes to drafting rookies due to their inexperience. But why does it even matter, isn't fantasy football is just a game? According to one Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." He goes on to explain that fantasy sports leagues have an, "economic impact estimated at $4.48 billion across the sport industry" @brian1. Fantasy sports players are always looking for a way to get an edge over their competion; because of that, we utilized the the power of machine learning to create the 'Rookie Fantasy Football Point Predictor' for those trying to make an educated pick, on untested rookie players. Our service will finally provide some data points to assist end users in making more informed decisions.
 
 Our project utilizes information from three data sets consisting of the 2000-18 NFL Combine stats for all participants, 2019 NFL Combine stats for this years rookies, and 2001-18 Fantasy Football Data for current players. From this data, it was our goal to be able to predict any rookie players fantasy football points per season and per game. We also wanted to be able to show how these rookies stacked up against other rookies that play the same postion. 
 
@@ -41,82 +41,13 @@ We employed the K-Nearest Neighbor machine learning algorithm for our service. W
 
 ### Images
 
-Image locations that start with http are not allowed. All images must be in an images folder within your directory.
 
-All images must be referred to in the text. The words bellow and above
-must not be used in your paper for images, tables, and code. For code you could use 
-
-> In the previous
-
-> In the following 
-
-> As explained next
-
-> We install the softwere with
-
-BUT DO NOT USE THEM FOR IMAGES, ANY IMAGE MUST HAVE A MEANINGFUL CAPTION AS SHOWN IN OUR EXAMPLE
-
-Comment: Above and bellow in a paper means you ask the reader to look at their shoes or the ceiling :smiley:.
-
-+@fig:fromonetotheorther shows a nice figure exported from Powerpoint
-to png. If you like you can use this as a basis for your drawings.
-
-![A simple flow chart](images/from-one-to-the-other.png){#fig:fromonetotheorther}
-
-Figures must not be cited with an explicit number, but automated
-numbering must be used. Here is how we did it for this paper:
-
-```
-+@fig:fromonetotheorther shows a nice
-figure exported from Powerpoint to png.
-If you like you can use this as a basis
-for your drawings.
-
-![A simple flow chart](images/from-one-to-the-other.png){#fig:fromonetotheorther}
-```
-
-If the paper is copied form another source you MUST use a citation in the caption. 
-
-![A simple flow chart [@vonLaszwski-fa18-sample-report]](images/from-one-to-the-other.png){#fig:fromonetotheorthertwo}
-
-This is done as follows
-
-```
-![A simple flow chart [@vonLaszwski-fa18-sample-report]](images/from-one-to-the-other.png){#fig:fromonetotheorthertwo}
-```
 
 ### Sylistic Issues
-
-Your report must not include the phrases
-
-
-* In this term project we show
-* In this project we describe
-* In this chapter we have
-* In this report we do
-
-or similar
-
-Instead you use
-
-* We show
-* We describe
-* We have
-* We do
-
-You will not use the word `I` but instead you will use `we` or third person.
 
 
 
 ### Copy from this document
-
-In case you want to copy part of this document you need to do this from raw mode
-
-* <https://raw.githubusercontent.com/cloudmesh-community/proceedings-fa18/master/project-report/report.md>
-
-**HOWEVER, YOU MUST NOT COPY THIS EXAMPLE IN YOUR REPORTS. IF YOU DO YOU MUST
-CHANGE THE IMAGE REFERNCES. THIS IS LOGICAL AS ALL IMAGE REFERNCES
-MUST BE UNIQUE.**
 
 
 ## Design 
