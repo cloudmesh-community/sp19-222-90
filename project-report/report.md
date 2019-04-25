@@ -1,3 +1,5 @@
+:warning: in review 
+
 # Rookie Fantasy Football Point Prediction
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
@@ -16,7 +18,9 @@ Keywords: KNN, Fantasy Football, REST, Docker
 
 ## Abstract
 
-We created a REST service that predicts which NFL Rookies will score the most fantasy football points based on their position and list them in order. 
+We created a REST service that predicts which 2019 NFL Rookies will score the most fantasy football points based on their position and list them in order. 
+
+:wave: add a few sentences to this, the abstract should encapsulate the entire project. 
 
 ## Introduction
 
