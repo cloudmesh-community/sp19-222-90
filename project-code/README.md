@@ -4,14 +4,17 @@
 
 ## 
 
-
+#### Build and run Docker Container and Start Service
+```
+make docker-all
+```
 
 #### Open server in browser
 ```
 https://localhost:8080/cloudmesh/nfl-analysis/v1/home
 ```
 
-##### Predictions by postion
+#### Predictions by postion
 * Postions options are QB, TE, RB, WR, and ALL
 ```
 https://localhost:8080/cloudmesh/nfl-analysis/v1/results/QB
