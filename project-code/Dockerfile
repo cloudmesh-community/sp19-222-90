@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-#MAINTAINER
+LABEL Ethan Japundza <ejapundz@iu.edu>
 
 RUN apt-get update -y
 RUN apt-get install -y apt-utils
@@ -24,9 +24,14 @@ RUN python get-pip.py
 RUN pip install -U pip setuptools
 RUN pip install psutil
 
-RUN git clone https://github.com/cloudmesh-community/sp19-222-90/tree/master/project-code
 
-WORKDIR cpu_test/
+RUN git clone https://github.com/cloudmesh-community/sp19-222-90
+
+WORKDIR /sp19-222-90/project-code
+
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+RUN pip install connexion
 
 EXPOSE 8080
 

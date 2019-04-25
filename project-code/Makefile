@@ -8,12 +8,12 @@ docker-all: docker-build docker-start
 
 docker-build:
 	@echo "building the image from docker file..."
-	docker build -t tbalson/cpu .
+	docker build --no-cache --pull -t nfl_analysis .
 	@echo "image DONE"
 
 docker-start:
 	@echo "starting the NEW service in container..."
-	docker run -v /home/:/home/ -p 8080:8080 tbalson/cpu
+	docker run -v /home/:/home/ -p 8080:8080 nfl_analysis
 
 service:
 	@echo "creating the service..."
@@ -33,7 +33,7 @@ docker-stop:
 
 docker-remove:
 	@echo "removing the image..."
-	docker rmi -f tbalson/cpu
+	docker rmi -f nfl_analysis
 	@echo "image removed"
 
 docker-clean: docker-stop docker-remove
