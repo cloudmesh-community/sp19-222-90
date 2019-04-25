@@ -71,7 +71,7 @@ def ff_prediction(position):
             # Finds rookie position in combine dataset
             position = position_finder.position_finder(rookie_name, code_dir + filename)
 
-            if(position == position_compare or position_compare == 'All'):
+            if(position == position_compare or position_compare == 'ALL'):
 
                 # Normalizes our dataset, including only the specific position entered
                 nfl_normalized, nfl_normalized_2019 = normalize_NFL_combine.normalize_nfl_combine(nfl_pd, nfl_2019_pd, position)

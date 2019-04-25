@@ -13,10 +13,9 @@ app = connexion.App(__name__, specification_dir="./")
 app.add_api("nfl-analysis.yaml")
 
 # create a URL route in our application for "/"
-@app.route("/")
+@app.route("/cloudmesh/nfl-analysis/v1/home")
 def home():
-    msg = {"msg": "This service provides a prediction of an NFL rookie's performance in Fantasy Football league based upon the"}
-    {"Fantasy Football statistics of current NFL players which the rookies are most similar to."}
+    msg = "This service provides a prediction of an NFL rookie's performance in Fantasy Football league based upon their performance at the NFL Combine."
     return jsonify(msg)
 
 
