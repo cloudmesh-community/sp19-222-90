@@ -24,11 +24,11 @@ We created a REST service that predicts which 2019 NFL Rookies will score the mo
 
 ## Introduction
 
-Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in XXXX. According to one Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." \cite{@article:drayer2010effects}  especially when it comes to drafting rookies due to their inexperience. For those trying to make an educated pick on an untested rookie 'the Rookie Fantasy Football Point Predictor' will finally provide some data points to assist end users make more informed decisions.	 
+Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in 1962, especially when it comes to drafting rookies due to their inexperience. But why does it even matter, isn't fantasy football is just a game? According to one Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." He goes on to explain that fantasy sports leagues have an, "economic impact estimated at $4.48 billion across the sport industry." \cite{@article:drayer2010effects} Fantasy sports players are always looking for a way to get an edge over their competion; because of that, we utilized the the power of machine learning to create the 'Rookie Fantasy Football Point Predictor' for those trying to make an educated pick, on untested rookie players. Our service will finally provide some data points to assist end users in making more informed decisions.
 
-Our project utilizes information from three data sets consisting of the 2000-18 NFL Combine stats for all participants, 2019 NFL Combine stats for this years rookies, and 2001-18 Fantasy Football Data for current players. From this data, it was our goal to be able to predict any rookie combine participants fantasy football points per season and per game and rank which rookies will score the most points based on their position. 
+Our project utilizes information from three data sets consisting of the 2000-18 NFL Combine stats for all participants, 2019 NFL Combine stats for this years rookies, and 2001-18 Fantasy Football Data for current players. From this data, it was our goal to be able to predict any rookie players fantasy football points per season and per game. We also wanted to be able to show how these rookies stacked up against other rookies that play the same postion. 
 
-We employed the K-Nearest Neighbor machine learning algorithm to compare the combine stats of each incoming rookies to current players combine stats and determine who they are most similar to. After finding the current player that is most like each rookie, we average the current players fantasy football points. This gives us a prediction of how many points a rookie while score in the season and per game.  These rookies are then sorted by their football position and ranked by most predicted points to allow one to quickly, and easily decide who the best pick is for a given position.
+We employed the K-Nearest Neighbor machine learning algorithm for our service. We needed to compare the combine stats of each incoming rookies to current players combine stats and determined who they are most similar to. After finding the rookies three nearest neighbors, or the current players they are most similar to, we averaged the players past fantasy football points. We then had a prediction of how many fantasy football points each rookie would score throughtout the season and during each game.  The rookies were then sorted by their football position and ranked in order of predicted points. With this data, one can quickly and efficently decide who the best rookie pick is for a given position.
 
 :wave: histroy of fantasy football maybe?
 
@@ -36,10 +36,6 @@ We employed the K-Nearest Neighbor machine learning algorithm to compare the com
 
 :wave: could this revolutionize FF?
 
-## How To Use
-```
-test
-```
 ## Requirements
 
 
