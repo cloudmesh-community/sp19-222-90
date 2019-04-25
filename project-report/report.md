@@ -24,7 +24,7 @@ We created a REST service that predicts which 2019 NFL Rookies will score the mo
 
 ## Introduction
 
-Who should be my top draft picks in this years fantasy football draft? This is a question that has plagued Americans since the creation of fantasy football, especially when it comes to drafting rookies due to their inexperience. For those trying to make an educated pick on an untested rookie 'the Rookie Fantasy Football Point Predictor' will finally provide some data points to assist end users make more informed decisions.	 
+Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in XXXX. According to one Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." \cite{drayer2010effects}  especially when it comes to drafting rookies due to their inexperience. For those trying to make an educated pick on an untested rookie 'the Rookie Fantasy Football Point Predictor' will finally provide some data points to assist end users make more informed decisions.	 
 
 Our project utilizes information from three data sets consisting of the 2000-18 NFL Combine stats for all participants, 2019 NFL Combine stats for this years rookies, and 2001-18 Fantasy Football Data for current players. From this data, it was our goal to be able to predict any rookie combine participants fantasy football points per season and per game and rank which rookies will score the most points based on their position. 
 
