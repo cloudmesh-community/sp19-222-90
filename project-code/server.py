@@ -1,10 +1,6 @@
-"""
-Main module of the server file
-"""
-
+from flask import Flask
 from flask import jsonify
 import connexion
-import pandas as pd
 
 # Create the application instance
 app = connexion.App(__name__, specification_dir="./")
@@ -15,7 +11,7 @@ app.add_api("nfl-analysis.yaml")
 # create a URL route in our application for "/"
 @app.route("/")
 def home():
-    msg = {"msg":"NFL rookie fantasy projections"}
+    msg = {"msg": "NFL rookie fantasy projections"}
     
     return jsonify(msg)
 
