@@ -12,15 +12,13 @@
 
 ---
 
-Keywords: KNN, Fantasy Football, REST, Docker
+Keywords: KNN, Fantasy Football, REST, Docker, Yaml
 
 ---
 
 ## Abstract
 
 The number of fantasy football player increases dramatically every year. We wanted to create a service that will help users draft better teams. We decided to focus on incoming NFL rookies, as they have no professional sports experience making it hard to decide who will be the most succesful. To solve this problem, we implemeted a REST service that gets data from Goodle drive, then utilizes the K-Nearest Neighbor machine learning algorithm on the data set then predicts which 2019 NFL Rookies will score the most fantasy football points based on their position allowing users to make more educated picks.
-
-:wave: add a few sentences to this, the abstract should encapsulate the entire project. 
 
 ## Introduction
 
@@ -30,20 +28,7 @@ Our project utilizes information from three data sets consisting of the 2000-18 
 
 We employed the K-Nearest Neighbor machine learning algorithm for our service. We needed to compare the combine stats of each incoming rookies to current players combine stats and determined who they are most similar to. After finding the rookies three nearest neighbors, or the current players they are most similar to, we averaged the players past fantasy football points. We then had a prediction of how many fantasy football points each rookie would score throughtout the season and during each game.  The rookies were then sorted by their football position and ranked in order of predicted points. With this data, one can quickly and efficently decide who the best rookie pick is for a given position.
 
-:wave: histroy of fantasy football maybe?
-
-:wave: how big of an industry is FF million? billion?
-
-:wave: could this revolutionize FF?
-
-## Design 
-
-## Architecture
-
-## Dataset
-
-We used datasets from 
-## Implementation / Design
+## Implementation and Design
 
 The machine learning technique KNN (k nearest neighbors) is a technique often used for classification or linear regression predictive problems. The algorithm relies on feature similarity, or the process of checking how an input sample will resemble the training set. Using the Euclidean distance, KNN calculates which features of the input sample are nearest to the training set. Choosing the value of k is dependent on the training datasets used, and the desired outcome. To get the optimal value of k, you can segregate the training and validation from the initial dataset, and plot the validation error curve to visualize the optimal value of K. Compared to other machine learning algorithms KNN has an advantage as it does not make assumptions about the data it uses, it is simple and highly effective, and it is versatile, as it can be used for both classification and regression. However, to its disadvantage KNN will store most if not all the training dataset which will often cause the algorithm to be computationally expensive and slow. 
 
@@ -51,24 +36,35 @@ Before our implementation of the KNN algorithm we found that choosing a value of
 
 Another disadvantage of the KNN algorithm and other machine learning techniques are there tendency to un-intentionally weight certain features of datasets due to size and scale differences in the features. To account for this, we have to normalize the datasets we pass into the algorithm, creating an equal ‘weight’ for the Euclidean distance to calculate a distance to. In Python the program Pandas library, or Python Data Analysis Library, allows us to do just that and easily import the csv’s needed to execute the KNN algorithm. …… to be continued and edited
 
+## Dataset
+
+We got all of our datasets from Pro Football Reference (https://www.pro-football-reference.com). The data we utilized is 2019 NFL combine stats of current incoming rookies, 2000-2018 NFL combine stats which is needed to compare rookie players to current players, and 2001-2018 Fantasy Football player results which we used when predicting Fantasy Football points.
 
 ---
-### Technologies Used:
+### Architecture and Technologies Used:
 
-#### K-Nearest Neighbors
-#### Pandas
-#### Python Design
+#### REST
+Representational State Transfer or REST is an architectural style used when creating web services. From the textbook, REST is desribed as being, "based on stateless, client-server, cacheable communications protocol.” REST applications typically use HTTP protocol and basic methods like GET, PUT, POST, etc. Because of this, REST can preform the four CRUD operations: Create resources, Read resources, Update resources, and Delete resources. Functions created a user can be combined with REST to create a cloud service that completes predefined tasks. 
 
-#### Rest
+We used REST in conjuction with a YAML document within our project, to create a REST service that runs on ones local machine. The service can be connected to through any internet broswer. Within the YAML document, there are predefined paths a user can use for different purposes. For our project the path can be alterd from /results/{position} to view fantasy football point predictions based on a given postion. When a postion is entered, our service gets the dataset from a google drive, then runs the K-Nearest neighbors algorithim on the data, then prints the result.
+
+Excerpt From: Gregor von Laszewski. “Cloud Computing.” iBooks.  
 
 #### Docker
-Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all needed components into one package. Because of these containers, developers are also certain these applications will work on all other Linux machines and don't have to worry about the individual machines their programs will run on. 
+Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all needed components into one package. Because of these containers, developers are also certain these applications will work on all other Linux machines and don't have to worry about the individual machines their programs will run on. We utilized Docker within our project to created a robust, self-contained, and easy to you use REST service for users on any Linux machine. 
 
 #### Yaml
 
-## Benchmark
+#### Python
+???
+
+## Limitations
+
+The NFL combine has only six tests of speed, agility and stregth, 40 yard dash, vertical leap, bench press reps, broad jump, three cone drill, and 20 yard shuttle run. We used that data in conjuction with each players height and weight when finding their "nearest neighbors." However, not all players, rookies and current, completed all of these tests in the combine, which could result in inaccurate comparisons between players. While we accurately found the most similar players based on combine data when all parameters were availabe, success in the NFL most likely can not be fully determined based on these stats. Another limitation is that we do not know what NFL team each rookie will join, and what role they will play on the team, (starter, first string, second string?) based on the players each team already has. Going forawd, one way we could attempt to increase accraucy of predictions in focusing on the weight of each parameter of the data and the correlation that has to success in fantasy football. For example, vertical leap may have no correlation to the number of fantasy points a player scores, while the three cone drill may have a very strong correlation to the number of points scored.  One way we wanted to increase the accuracy of prediction, was utilizing rookies in game college football stats. However, we ulimatly decided that the differences in conferance and division could provided skewed data resulting in inaccurate predictions. 
 
 ## Conclusion
+
+As the number of Fantasy Football players continues to increase, we set out to answer the age old question, who should be my top draft picks in this years fantasy football draft? We wanted to provide users a way to make eduecated picks on rookies that are likely to succeed in Fantasy Football. To accomplish this, with the used nearly 18 years worth of NFL combine data and Fantasy Football results and created a service using REST, Python, Yaml, and Docker to predict how well NFL rookies will do. Utilizing artifical intelligence to provide educated sports picks could revolutionize fantasy sport; and in a market that has a nearly $4.5 billion impact across the sports industry, this information could be extremly valuable as well. We successfully made a service that ranked rookies by postion, and predicted how many points they would score in Fantasy Football.
 
 
 
