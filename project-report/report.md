@@ -36,12 +36,7 @@ Before our implementation of the KNN algorithm we found that choosing a value of
 
 Another disadvantage of the KNN algorithm and other machine learning techniques are there tendency to un-intentionally weight certain features of datasets due to size and scale differences in the features. To account for this, we have to normalize the datasets we pass into the algorithm, creating an equal ‘weight’ for the Euclidean distance to calculate a distance to. In Python the program Pandas library, or Python Data Analysis Library, allows us to do just that and easily import the csv’s needed to execute the KNN algorithm. …… to be continued and edited
 
-## Dataset
-
-We got all of our datasets from Pro Football Reference (https://www.pro-football-reference.com). The data we utilized is 2019 NFL combine stats of current incoming rookies, 2000-2018 NFL combine stats which is needed to compare rookie players to current players, and 2001-2018 Fantasy Football player results which we used when predicting Fantasy Football points.
-
----
-### Architecture and Technologies Used:
+## Architecture and Technologies Used:
 
 #### REST
 Representational State Transfer or REST is an architectural style used when creating web services. From the textbook, REST is desribed as being, "based on stateless, client-server, cacheable communications protocol.” REST applications typically use HTTP protocol and basic methods like GET, PUT, POST, etc. Because of this, REST can preform the four CRUD operations: Create resources, Read resources, Update resources, and Delete resources. Functions created a user can be combined with REST to create a cloud service that completes predefined tasks. 
@@ -57,6 +52,10 @@ Docker is a tool that allows users to create, deploy and run applications within
 
 #### Python
 ???
+
+## Dataset
+
+We got all of our datasets from Pro Football Reference (https://www.pro-football-reference.com). The data we utilized is 2019 NFL combine stats of current incoming rookies, 2000-2018 NFL combine stats which is needed to compare rookie players to current players, and 2001-2018 Fantasy Football player results which we used when predicting Fantasy Football points.
 
 ## Limitations
 
