@@ -1,27 +1,27 @@
 
 # Fantasy Football Point Predictor - Tutorial
 ---
-### 1) Clone Repository into Local Directory
+#### 1) Clone Repository into Local Directory
 ```
 $ git clone https://github.com/cloudmesh-community/sp19-222-90.git 
 ```
-### 2) Enter Project-Code Directory
+#### 2) Enter Project-Code Directory
 ```
 $ cd sp19 cd sp19-222-90/project-code/
 ```
 
-### 3) Build and Run Docker Container and Start Service
+#### 3) Build and Run Docker Container and Start Service
 ```
 $ make docker-all
 ```
 
-### 4) Open Server in Browser
+#### 4) Open Server in Browser
 ```
 https://localhost:8080/cloudmesh/nfl-analysis/v1/home
 ```
 
 ### 5) View Predictions by Postion
-* Postions options are QB, TE, RB, WR, and ALL
+* Postion options are QB, TE, RB, WR, and ALL
 ```
 https://localhost:8080/cloudmesh/nfl-analysis/v1/results/QB
 https://localhost:8080/cloudmesh/nfl-analysis/v1/results/TE
