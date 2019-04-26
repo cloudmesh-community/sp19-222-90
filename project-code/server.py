@@ -15,8 +15,7 @@ app.add_api("nfl-analysis.yaml")
 # create a URL route in our application for "/"
 @app.route("/")
 def home():
-    msg = "This service provides a prediction of an NFL rookie's performance in 
-       Fantasy Football league based upon their performance at the NFL Combine."
+    msg = {"msg":"NFL rookie fantasy projections"}
     
     return jsonify(msg)
 
