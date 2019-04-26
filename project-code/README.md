@@ -20,7 +20,7 @@ $ make docker-all
 https://localhost:8080/cloudmesh/nfl-analysis/v1/home
 ```
 
-### 5) View Predictions by Postion
+#### 5) View Predictions by Postion
 * Postion options are QB, TE, RB, WR, and ALL
 ```
 https://localhost:8080/cloudmesh/nfl-analysis/v1/results/QB
