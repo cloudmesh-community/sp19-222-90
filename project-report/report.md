@@ -5,6 +5,7 @@
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
 | adgotts@iu.edu, ejapundz@iu.edu, bschwant@iu.edu  
 | Indiana University
+
 | hid: sp19-222-94, sp19-222-90, sp19-222-92  
 | github: [:cloud:](https://github.com/cloudmesh-community/proceedings-fa18/blob/master/project-report/report.md)
 | code: [:cloud:](https://github.com/cloudmesh-community/proceedings-fa18/blob/master/project-code)
