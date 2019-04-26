@@ -35,6 +35,4 @@ RUN pip install connexion
 
 EXPOSE 8080
 
-RUN make start
-
 CMD ["make", "start"]
