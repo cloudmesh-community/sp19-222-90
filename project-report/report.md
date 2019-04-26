@@ -18,13 +18,13 @@ Keywords: KNN, Fantasy Football, REST, Docker
 
 ## Abstract
 
-We created a REST service that predicts which 2019 NFL Rookies will score the most fantasy football points based on their position and list them in order. 
+The number of fantasy football player increases dramatically every year. We wanted to create a service that will help users draft better teams. We decided to focus on incoming NFL rookies, as they have no professional sports experience making it hard to decide who will be the most succesful. To solve this problem, we implemeted a REST service that gets data from Goodle drive, then utilizes the K-Nearest Neighbor machine learning algorithm on the data set then predicts which 2019 NFL Rookies will score the most fantasy football points based on their position allowing users to make more educated picks.
 
 :wave: add a few sentences to this, the abstract should encapsulate the entire project. 
 
 ## Introduction
 
-Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in 1962, especially when it comes to drafting rookies due to their inexperience. But why does it even matter, isn't fantasy football is just a game? According to one Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." He goes on to explain that fantasy sports leagues have an, "economic impact estimated at $4.48 billion across the sport industry" @brian1. Fantasy sports players are always looking for a way to get an edge over their competion; because of that, we utilized the the power of machine learning to create the 'Rookie Fantasy Football Point Predictor' for those trying to make an educated pick, on untested rookie players. Our service will finally provide some data points to assist end users in making more informed decisions.
+Who should be my top draft picks in this years fantasy football draft?  This is a question that has plagued fantasy football enthusiast since its creation in 1962, especially when it comes to drafting rookies due to their inexperience. But why does it even matter, isn't fantasy football is just a game?  According to Joris Drayer, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." He goes on to explain that fantasy sports leagues have an, "economic impact estimated at $4.48 billion across the sport industry" @brian1. Fantasy sports players are always looking for a way to get an edge over their competion. With that many people and that much money involved, technologies created to help players be successful could revolutionize fantasy football. Because of that, we utilized the the power of machine learning to create the 'Rookie Fantasy Football Point Predictor' for those trying to make an educated pick, on untested rookie players. Our service will finally provide some data points to assist end users in making more informed decisions.
 
 Our project utilizes information from three data sets consisting of the 2000-18 NFL Combine stats for all participants, 2019 NFL Combine stats for this years rookies, and 2001-18 Fantasy Football Data for current players. From this data, it was our goal to be able to predict any rookie players fantasy football points per season and per game. We also wanted to be able to show how these rookies stacked up against other rookies that play the same postion. 
 
@@ -36,26 +36,13 @@ We employed the K-Nearest Neighbor machine learning algorithm for our service. W
 
 :wave: could this revolutionize FF?
 
-## Requirements
-
-
-### Images
-
-
-
-### Sylistic Issues
-
-
-
-### Copy from this document
-
-
 ## Design 
 
 ## Architecture
 
 ## Dataset
 
+We used datasets from 
 ## Implementation / Design
 
 The machine learning technique KNN (k nearest neighbors) is a technique often used for classification or linear regression predictive problems. The algorithm relies on feature similarity, or the process of checking how an input sample will resemble the training set. Using the Euclidean distance, KNN calculates which features of the input sample are nearest to the training set. Choosing the value of k is dependent on the training datasets used, and the desired outcome. To get the optimal value of k, you can segregate the training and validation from the initial dataset, and plot the validation error curve to visualize the optimal value of K. Compared to other machine learning algorithms KNN has an advantage as it does not make assumptions about the data it uses, it is simple and highly effective, and it is versatile, as it can be used for both classification and regression. However, to its disadvantage KNN will store most if not all the training dataset which will often cause the algorithm to be computationally expensive and slow. 
@@ -71,17 +58,17 @@ Another disadvantage of the KNN algorithm and other machine learning techniques 
 #### K-Nearest Neighbors
 #### Pandas
 #### Python Design
+
 #### Rest
+
 #### Docker
+Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all needed components into one package. Because of these containers, developers are also certain these applications will work on all other Linux machines and don't have to worry about the individual machines their programs will run on. 
+
 #### Yaml
 
 ## Benchmark
 
 ## Conclusion
 
-## Acknowledgement
 
-## Workbreakdown
-
-Only needed if you work in a group.
 
