@@ -29,10 +29,8 @@ RUN git clone https://github.com/cloudmesh-community/sp19-222-90.git
 
 WORKDIR /sp19-222-90/project-code
 
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
-RUN pip install connexion
-
 EXPOSE 8080
+
+RUN pip install -r requirements.txt
 
 #CMD ["make", "start"]
