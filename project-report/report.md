@@ -72,4 +72,44 @@ The NFL combine has only six tests of speed, agility and stregth, 40 yard dash, 
 As the number of Fantasy Football players continues to increase, we set out to answer the age old question, who should be my top draft picks in this years fantasy football draft? We wanted to provide users a way to make eduecated picks on rookies that are likely to succeed in Fantasy Football. To accomplish this, with the used nearly 18 years worth of NFL combine data and Fantasy Football results and created a service using REST, Python, Yaml, and Docker to predict how well NFL rookies will do. Utilizing artifical intelligence to provide educated sports picks could revolutionize fantasy sport; and in a market that has a nearly $4.5 billion impact across the sports industry, this information could be extremly valuable as well. We successfully made a service that ranked rookies by postion, and predicted how many points they would score in Fantasy Football.
 
 
+## Specification
 
+```
+swagger: "2.0"
+info: 
+  version: "0.0.1"
+  title: "cpuinfo"
+  description: "A simple service to get cpuinfo as an example of using swagger-2.0 specification and codegen"
+  termsOfService: "http://swagger.io/terms/"
+  contact: 
+    name: "Cloudmesh REST Service Example"
+  license: 
+    name: "Apache"
+host: "localhost:8080"
+basePath: "/cloudmesh/nfl-analysis/v1"
+paths: 
+  /results/{position}:
+    get:
+      tags:
+        - NFL
+      parameters:
+        - name: position
+          in: path
+          description: position
+          type: string
+          required: true
+      operationId: nfl-analysis.ff_prediction
+      produces:
+        - text/html
+      responses: 
+        "200":
+          description: "FF data"
+          schema:
+            $ref: "#/definitions/NFL"
+definitions:
+  NFL:
+    type: "string"
+    properties: 
+      model:
+        type: "string"
+```
