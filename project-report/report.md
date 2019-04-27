@@ -47,9 +47,11 @@ We used REST in conjuction with a YAML document within our project, to create a 
 Excerpt From: Gregor von Laszewski. “Cloud Computing.” iBooks.  
 
 #### Docker
-Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all needed components into one package. Because of these containers, developers are also certain these applications will work on all other Linux machines and don't have to worry about the individual machines their programs will run on. We utilized Docker within our project to created a robust, self-contained, and easy to you use REST service for users on any Linux machine. 
+Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all needed components into one package. Because of these containers, developers are also certain these applications will work on all other Linux machines and don't have to worry about the individual machines their programs will run on. We utilized Docker within our project to created a robust, self-contained, and easy to use REST service for users on any Linux machine. 
 
 #### Yaml
+YAML is the type of file that is used to configure the endpoints for the server. Endpoints are used to dictate what URLs are valid in the server and what data and data type will be displayed for a particular path. YAML also allows specifications to be added to endpoints such as operations, HTML responses, and HTTP methods. This provides a lot of flexibility that is complemented by an easy to read syntax. Our YAML takes advantage of the operations feature along with URL paths acting as variables to a function, and also displays a .csv table that is translated into an HTML table.
+
 
 #### Python
 ???
