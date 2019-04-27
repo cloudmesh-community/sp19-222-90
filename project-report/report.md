@@ -1,8 +1,9 @@
+# Rookie Fantasy Football Point Prediction
+
 :warning: in review 
 
 :wave: I want to see the equations for knn...i can help you with the math syntax if you tell me what they are.
 
-# Rookie Fantasy Football Point Prediction
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
 | adgotts@iu.edu, ejapundz@iu.edu, bschwant@iu.edu  
