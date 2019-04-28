@@ -47,7 +47,7 @@ Another disadvantage of the KNN algorithm and other machine learning techniques 
 From this library we use the read.csv function to read the NFL comma-separated values (csv) file into data frame. A data frame is a two-dimensional tabular data structure with labeled axes, in which arithmetic operations align on both row and column labels. We use this data frame to isolate only our numeric features within the dataset, allowing us to quickly use only the features from the NFL combine that are measurables. As discussed earlier, in order for our output to be accurate the numeric features within each dataset must be normalized to create an equal weight for each combine measurement. Using the PANDAS data frame we achieved this by taking the numeric features and subtracting them from their mean. Once this was done we divide them by the standard deviation of the dataset, resulting in a very neat and evenly weighted data frame to pass into the KNN module. 
 
 
-## implementation:
+## Implementation:
 
 #### REST
 Representational State Transfer or REST is an architectural style used when creating web services. From the textbook, REST is desribed as being, "based on stateless, client-server, cacheable communications protocol.” REST applications typically use HTTP protocol and basic methods like GET, PUT, POST, etc. Because of this, REST can preform the four CRUD operations: Create resources, Read resources, Update resources, and Delete resources. Functions created a user can be combined with REST to create a cloud service that completes predefined tasks. 
