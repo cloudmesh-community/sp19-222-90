@@ -53,7 +53,7 @@ From this library we use the read.csv function to read the NFL comma-separated v
 
 ## Implementation
 
-![REST Service](images/RESTdiagram){#fig:REST}
+![REST Service](images/RESTdiagram.jpg){#fig:REST}
 
 #### REST
 Representational State Transfer or REST is an architectural style used when creating web services. From the textbook, REST is desribed as being, "based on stateless, client-server, cacheable communications protocol.” REST applications typically use HTTP protocol and basic methods like GET, PUT, POST, etc. Because of this, REST can preform the four CRUD operations: Create resources, Read resources, Update resources, and Delete resources. Functions created a user can be combined with REST to create a cloud service that completes predefined tasks. 
