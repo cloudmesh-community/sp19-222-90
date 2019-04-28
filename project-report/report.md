@@ -4,6 +4,10 @@
 
 :warning: what is the status of the python section?
 
+:warning: lets create a bib entry for the profootball website where we got the data from instead of showing the link.
+
+:wave: adjust you specification to describe your project not the cpu example 
+
 :wave: I want to see the equations for knn...i can help you with the math syntax if you tell me what they are.
 
 :question: Is the KNN section better now, any tips for rest of paper? :smiley: check how i seeded and referenced the figure.
