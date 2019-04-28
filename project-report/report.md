@@ -22,7 +22,7 @@ Keywords: KNN, Fantasy Football, REST, Docker, Yaml
 
 ## Abstract
 
-The number of fantasy football player increases dramatically every year. We wanted to create a service that will help users draft better teams. We decided to focus on incoming NFL rookies, as they have no professional sports experience making it hard to decide who will be the most succesful. To solve this problem, we implemeted a REST service that gets data from Goodle drive, then utilizes the K-Nearest Neighbor machine learning algorithm on the data set then predicts which 2019 NFL Rookies will score the most fantasy football points based on their position allowing users to make more educated picks.
+As the number of fantasy football players increases dramatically every year, we saw an opportunity to create a service that will help users draft better teams. While NFL veterans have gameplay for fantasy enthusiasts to evaluate, incoming rookies with a lack of professional experience makes it difficult for fans to evaluate whether or not their teams picks will be successful in the NFL. To solve this problem, we implemented a REST service that gets an aggregate of combine and fantasy football data from Google-Drive. Our service then utilizes the K-Nearest Neighbor machine learning algorithm on our data set, outputting our projections for which 2019 NFL Rookies will score the most fantasy football points based on their metrics from the combine.
 
 ## Introduction
 
