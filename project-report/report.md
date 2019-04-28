@@ -36,7 +36,7 @@ Our project utilizes information from three data sets consisting of the 2000-201
 
 ## KNN Algorithm
 
-The machine learning technique KNN (K-Nearest Neighbors) is a technique often used for classification or linear regression predictive problems. The algorithm relies on feature similarity, or the process of checking how an input sample will resemble the training set. Using the Euclidean distance formula, KNN calculates which features of the input sample are nearest to the training set. Figure @fig:nn is a graphical illustration of this process.
+The machine learning technique KNN (K-Nearest Neighbors) is a technique often used for classification or linear regression predictive problems. The algorithm relies on feature similarity, or the process of checking how an input sample will resemble the training set. Using the Euclidean distance formula, KNN calculates which features of the input sample are nearest to the training set. @fig:nn is a graphical illustration of this process.
 
 ![](images/KNN_Euclidean.jpg){#fig:knn}
 
