@@ -2,11 +2,7 @@
 
 :warning: in review 
 
-:warning: what is the status of the python section?
-
 :warning: lets create a bib entry for the profootball website where we got the data from instead of showing the link.
-
-:wave: adjust you specification to describe your project not the cpu example 
 
 :wave: I want to see the equations for knn...i can help you with the math syntax if you tell me what they are.
 
@@ -68,11 +64,11 @@ Excerpt From: Gregor von Laszewski. “Cloud Computing.” iBooks.
 Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all needed components into one package. Because of these containers, developers are also certain these applications will work on all other Linux machines and don't have to worry about the individual machines their programs will run on. We utilized Docker within our project to created a robust, self-contained, and easy to use REST service for users on any Linux machine. 
 
 #### Yaml
-YAML is the type of file that is used to configure the endpoints for the server. Endpoints are used to dictate what URLs are valid in the server and what data and data type will be displayed for a particular path. YAML also allows specifications to be added to endpoints such as operations, HTML responses, and HTTP methods. This provides a lot of flexibility that is complemented by an easy to read syntax. Our YAML takes advantage of the operations feature along with URL paths acting as variables to a function, and also displays a .csv table that is translated into an HTML table.
+YAML is the type of file that is used to configure the endpoints for the server. Endpoints are used to dictate what URLs are valid in the server and what data and data type will be displayed for a particular path. YAML also allows specifications to be added to endpoints such as operations, HTML responses, and HTTP methods. This provides a lot of flexibility that is complemented by an easy to read syntax. Our YAML takes advantage of the operations feature along with URL paths acting as variables to a function, and also displays a .csv table that is translated into an HTML table. Future additions to endpoints are simple to add without affecting current endpoints which makes future updates straight forward with few worries about breaking past versions.
 
 
 #### Python
-??? Is there going to be something here?
+The core of this project is written in Python which allows us to package all components needed to run our service easily. The use of "__init__" files creates a sensible directory structure that ensures a user can import our functions if they see them as useful for personal applications. The versatility of python enabled us to create functions that perform our main service along with a server that hosts them and ties everything together in a clean REST service, which uses a YAML file to create a direct link between the server and the python functions and presents an easy to understand flow in terms of the overall structure of the project.
 
 ## Dataset
 
@@ -93,11 +89,11 @@ As the number of Fantasy Football players continues to increase, we set out to a
 swagger: "2.0"
 info: 
   version: "0.0.1"
-  title: "cpuinfo"
-  description: "A simple service to get cpuinfo as an example of using swagger-2.0 specification and codegen"
+  title: "NFL FF Points"
+  description: "A service that provides Fantasy Football point predictions for upcoming NFL rookies"
   termsOfService: "http://swagger.io/terms/"
   contact: 
-    name: "Cloudmesh REST Service Example"
+    name: "NFL FF Prediction Service"
   license: 
     name: "Apache"
 host: "localhost:8080"
