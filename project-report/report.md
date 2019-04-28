@@ -4,7 +4,9 @@
 
 :wave: I want to see the equations for knn...i can help you with the math syntax if you tell me what they are.
 
-:question: Is the KNN section better now, any tips for rest of paper? Please leave any and all comments
+:question: Is the KNN section better now, any tips for rest of paper? 
+
+:smiley: Paris Campbell
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
 | adgotts@iu.edu, ejapundz@iu.edu, bschwant@iu.edu  
