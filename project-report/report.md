@@ -44,7 +44,7 @@ Our project utilizes information from three data sets consisting of the 2000-201
 
 The machine learning technique KNN (K-Nearest Neighbors) is a technique often used for classification or linear regression predictive problems. The algorithm relies on feature similarity, or the process of checking how an input sample will resemble the training set. Using the Euclidean distance formula, KNN calculates which features of the input sample are nearest to the training set. @fig:knn is a graphical illustration of this process.
 
-![](images/KNN_Euclidean.jpg){#fig:knn}
+![Euclidean distance formula](images/KNN_Euclidean.jpg){#fig:knn}
 
 As seen above the Euclidean distance formula is used within KNN to calculate the distance between a feature of the input data, blue helmet, and k instances of that same feature within the training data, red helmets. Choosing the value of k is dependent on the training datasets used and the desired outcome. To get the optimal value of k, you can segregate the training and validation from the initial dataset, and plot the validation error curve to visualize the optimal value of k. Compared to other machine learning algorithms KNN has an advantage as it does not make assumptions about the data it uses, it is simple, highly effective, and it is versatile. However to its disadvantage, the KNN algorithm requires that we store all of the training dataset, which will often cause the algorithm to be computationally expensive and slow.
 
