@@ -2,11 +2,13 @@
 
 :warning: in review 
 
+:warning: what is the status of the python section?
+
 :wave: I want to see the equations for knn...i can help you with the math syntax if you tell me what they are.
 
 :question: Is the KNN section better now, any tips for rest of paper? :smiley: check how i seeded and referenced the figure.
 
-:smiley: Paris Campbell
+:smiley: Paris Campbell :smiley: Great pick
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
 | adgotts@iu.edu, ejapundz@iu.edu, bschwant@iu.edu  
@@ -66,7 +68,7 @@ YAML is the type of file that is used to configure the endpoints for the server.
 
 
 #### Python
-???
+??? Is there going to be something here?
 
 ## Dataset
 
