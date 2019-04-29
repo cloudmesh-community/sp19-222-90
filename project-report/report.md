@@ -38,6 +38,7 @@ Who should be the top pick in this years fantasy football draft? This is a quest
 ### Data Set 
 
 Our project uses information from three data sets consisting of the 2000-2018_NFL_ Combine statistics, the 2019_NFL_Combine statistics for this year's rookies, and the 2001-2018_Fantasy_Football data for every active NFL player. These datasets consist of six combine drills: 
+
 * 40-Yard Dash: Measures a player's explosion, burst, and acceleration.
 * Three-Cone Drill: Highlights a players ability to shift directions at a high speed.
 * Shuttle Run: Demonstrates short area lateral quickness, and the speed at which a player can change directions. 
