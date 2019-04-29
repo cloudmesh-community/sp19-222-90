@@ -63,10 +63,9 @@ Our project uses REST architecture, in conjunction with a YAML file, to package 
 
 ![REST Service](images/RESTdiagram.jpg){#fig:REST}
 
-Visualized in @fig:REST above, when an offensive position is entered, the HTTP request is then sent to the REST server. From here, our service calls the python function (which python function), which retrieves our NFL datasets from a Google drive. Within this function, the machine learning is executed and the players are ranked through our comparative analysis and exported to a csv file. We then convert the final csv file to a html table, where it is printed to the users screen at the endpoint defined in the yaml file. While this is functional, we aren’t able to ensure consistency across multiple development and release cycles, which highlighted the advantage of using a software like Docker to standardize the environment of our project.
+Visualized in @fig:REST above, when an offensive position is entered, the HTTP request is then sent to the REST server. From here, our service calls the python function (:wolf: which python function?), which retrieves our NFL datasets from a Google drive. Within this function, the machine learning is executed and the players are ranked through our comparative analysis and exported to a csv file. We then convert the final csv file to a html table, where it is printed to the users screen at the endpoint defined in the yaml file. While this is functional, we aren’t able to ensure consistency across multiple development and release cycles, which highlighted the advantage of using a software like Docker to standardize the environment of our project.
 
 Docker is a tool that allows users to create, deploy and run applications within virtual containers. This technology is extremely useful when developing applications because it allows one to combine all of the needed components into one package. Docker also ensures parity, which allows your images to run the same regardless of the server or laptop it is running on. This eliminates bugs that will occur on only certain computers and creates a standardized environment.  We utilized Docker within our project to….
-
 
 ## Dataset
 
