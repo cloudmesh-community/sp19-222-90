@@ -2,10 +2,6 @@
 
 :warning: in review 
 
-:warning: lets create a bib entry for the profootball website where we got the data from instead of showing the link.
-
-:smiley: ^ we will do this on Monday allong with citations
-
 :wave: cite that REST figure
 
 :wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
