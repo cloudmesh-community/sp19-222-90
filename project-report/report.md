@@ -3,7 +3,8 @@
 :warning: in review 
 
 :warning: lets create a bib entry for the profootball website where we got the data from instead of showing the link.
-:smiley: we will do this on Monday allong with citations
+
+:smiley: ^ we will do this on Monday allong with citations
 
 :question: Any tips for rest of paper?
 
