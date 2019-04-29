@@ -2,6 +2,8 @@
 
 :warning: in review 
 
+:wave: donet use the words above and below to refer to your images, as they are neither on the ceiling, nor on the floow ;-)
+
 :wave: cite that REST figure I can show you how if you point me toward the ref
 
 :wave: lets type the equation out and crop it out of the figure. I can showcase this for you if you prefer otherwise look at your classmates papers to see syntax
