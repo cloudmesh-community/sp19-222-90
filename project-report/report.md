@@ -4,6 +4,8 @@
 
 :wave: cite that REST figure I can show you how if you point me toward the ref
 
+:wave: lets type the equation out and crop it out of the figure. I can showcase this for you if you prefer otherwise look at your classmates papers to see syntax
+
 :wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
 
 :question: ^ fixed?
