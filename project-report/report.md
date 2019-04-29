@@ -6,8 +6,6 @@
 
 :smiley: ^ we will do this on Monday allong with citations
 
-:wave: lets paraphrase instead of using quotes. Post here if you want help I can showcase in the introduction.
-
 :wave: cite that REST figure
 
 :wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
