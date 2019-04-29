@@ -2,7 +2,7 @@
 
 :warning: in review 
 
-:wave: cite that REST figure
+:wave: cite that REST figure I can show you how if you point me toward the ref
 
 :wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
 
