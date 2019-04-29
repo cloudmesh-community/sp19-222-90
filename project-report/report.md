@@ -6,17 +6,16 @@
 
 :smiley: ^ we will do this on Monday allong with citations
 
-:question: Any tips for rest of paper?
+:wave: lets paraphrase instead of using quotes. Post here if you want help I can showcase in the introduction.
 
+:question: Any tips for rest of paper?
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
 | adgotts@iu.edu, ejapundz@iu.edu, bschwant@iu.edu  
 | Indiana University
-
 | hid: sp19-222-94, sp19-222-90, sp19-222-92  
 | github: [:cloud:](https://github.com/cloudmesh-community/sp19-222-90/blob/master/project-report/report.md)
 | code: [:cloud:](https://github.com/cloudmesh-community/sp19-222-90/tree/master/project-code)
-
 
 ---
 
@@ -30,11 +29,19 @@ As the number of fantasy football players increases dramatically every year, we 
 
 ## Introduction
 
+:wave: paraphrase instead of quotes
+
+### Fantasy Football 
+
 Who should be the top pick in this years fantasy football draft? This is a question that has plagued fantasy football enthusiasts since its creation in 1962. But why does it even matter, isn't fantasy football just a game? According to Joris Drayer, a professor at Temple University in Sports Marketing and Analytics, "more than 29 million Americans and Canadians participate in some kind of fantasy sports league." He goes on to explain that fantasy sports leagues have an, "economic impact estimated at $4.48 billion across the sports industry" @brian1. Fantasy sports players are always looking for a way to get an edge over their competition. With such a large amount of people and money involved, the technologies created to help players be successful are in a position to revolutionize the market of fantasy football. Utilizing the power of machine learning, we were able to create the 'Rookie Fantasy Football Point Predictor'. A service for those trying to make an educated pick on rookie players with no professional experience. 
 
+### Data Set 
 
-Our project utilizes information from three data sets consisting of the 2000-2018 NFL Combine statistics, the 2019 NFL Combine statistics for this year's rookies, and the 2001-2018 Fantasy Football Data for every active NFL player. From this data, our goal was to both rank and predict the average fantasy points-per-game for the incoming rookie class based on comparisons within the data sets. In order to properly see the correlation between combine measurables and rookies’ average fantasy points-per-game, we needed to create comparisons of each combine drill with those of past and present NFL athletes. We found the best way to achieve this was to employ the K-Nearest Neighbor machine learning algorithm for our service.
+Our project uses information from three data sets consisting of the 2000-2018 NFL Combine statistics, the 2019 NFL Combine statistics for this year's rookies, and the 2001-2018 Fantasy Football Data for every active NFL player. From this data, our goal was to both rank and predict the average fantasy points-per-game for the incoming rookie class based on comparisons within the data sets. In order to properly see the correlation between combine measurables and rookies’ average fantasy points-per-game, we needed to create comparisons of each combine drill with those of past and present NFL athletes. We found the best way to achieve this was to employ the K-Nearest Neighbor machine learning algorithm for our service.
 
+:wave: use and utilize is the same, utlize is a bit jargony. 
+
+:wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
 
 ## KNN Algorithm
 
@@ -69,6 +76,8 @@ Docker is a tool that allows users to create, deploy and run applications within
 
 ## Dataset
 
+:wave: combine this with the intro, or provide an indepth discussion about the categories within the dataset ie instead of this being Dataset maybe this should be Predictor Variables or something along those lines.
+
 We got all of our datasets from Pro Football Reference @data. The data we utilized is 2019 NFL combine stats of current incoming rookies, 2000-2018 NFL combine stats which is needed to compare rookie players to current players, and 2001-2018 Fantasy Football player results which we used when predicting Fantasy Football points.
 
 ## Limitations
@@ -78,6 +87,8 @@ The NFL combine has six tests of speed, agility, strength, 40-yard dash, vertica
 ## Conclusion
 
 As the number of Fantasy Football players continues to increase, we set out to answer the age old question, who should be my top draft picks in this years fantasy football draft? We wanted to provide users a way to make educated picks on rookies that are likely to succeed in Fantasy Football. To accomplish this, with the used nearly 18 years worth of NFL combine data and Fantasy Football results and created a service using REST, Python, Yaml, and Docker to predict how well NFL rookies will do. Utilizing artificial intelligence to provide educated sports picks could revolutionize fantasy sport; and in a market that has a nearly $4.5 billion impact across the sports industry, this information could be extremely valuable as well. We successfully made a service that ranked rookies by position and predicted how many points they would score in Fantasy Football.
+
+:wave: discuss how you can test this. 
 
 ## Specification
 
