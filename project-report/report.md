@@ -12,6 +12,8 @@
 
 :wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
 
+:question: ^ fixed?
+
 :question: Any tips for rest of paper?
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
