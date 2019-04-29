@@ -2,7 +2,7 @@
 
 :warning: in review 
 
-:wave: donet use the words above and below to refer to your images, as they are neither on the ceiling, nor on the floow ;-)
+:wave: do not use the words above and below to refer to your images, as they are neither on the ceiling, nor on the floow ;-)
 
 :wave: cite that REST figure I can show you how if you point me toward the ref
 
