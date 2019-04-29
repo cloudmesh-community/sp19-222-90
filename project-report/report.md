@@ -39,17 +39,16 @@ Who should be the top pick in this years fantasy football draft? This is a quest
 
 ### Data Set 
 
-Our project uses datasets from Pro Football Reference @data. The three datasets we used for our service are the 2000-2018 NFL Combine statistics, the 2019 NFL Combine statistics for this year's rookies, and the 2001-2018 Fantasy Football Data for every active NFL player. From this data, our goal was to both rank and predict the average fantasy points-per-game for the incoming rookie class based on comparisons between them and current players. The NFL combine has six main drills with the purspose of testing players speed, strength, and agility. 
+Our project uses information from three data sets consisting of the 2000-2018_NFL_ Combine statistics, the 2019_NFL_Combine statistics for this year's rookies, and the 2001-2018_Fantasy_Football data for every active NFL player. These datasets consist of six combine drills:
+* 40-Yard Dash: Measures a player's explosion, burst, and acceleration.
+* Three-Cone Drill: Highlights a players ability to shift directions at a high speed.
+* Shuttle Run: Demonstrates short area lateral quickness, and the speed at which a player can change directions. 
+* Vertical Jump: Tests for lower body extension and power.
+* Broad Jump: Evaluates an athlete's lower-body explosion, and lower-body strength.
+* Bench Press: Demonstrates a players strength and endurance.
 
-The six drills are: 
-* 40-Yard Dash: This drill test the player's explosion, burst and acceleration.
-* Three-Cone Drill: The three-cone drill is used to measure a players ability to shift directions at a high speed.
-* Shuttle Run: The shuttle run also tests a players ability to change direction at high speed but also demonstrates players lateral quickness.
-* Vertical Jump: The vertical jump tests the players lower body extension and power.
-* Broad Jump: The broad jump also measures a players lower body extension and power, but also their lower body explosion.
-* Bench Press: The bench press is a way for for players to demonstrate their strength.
+From these drills measurables are obtained that can serve as a predictor for the rookies effectiveness in the NFL. For certain positions, like wide receiver, the shuttle run is significant as this drill will often determine whether or not the defender is able to get separation between his defender at the line of scrimmage.  While for other positions like quarterback, the shuttle run has less importance as they are rarely making quick and decisive cuts while playing in NFL games. Due to the difference in how each drill can serve as a predictor for different positions, we found the best way to analyze the incoming rookies within the 2019_NFL_Combine dataset was to compare their performance to previous NFL players within the 2000-2018_NFL_Combine dataset.  From this comparison, our goal was to both rank and predict the average fantasy points-per-game for the incoming rookie class based on how each rookies comparisons performed in the 2001-2018_Fantasy_Football dataset. We found the best way to make  this correlation was to employ the K-Nearest Neighbor machine learning algorithm to for our service.
 
-The results of these tests along with players height and weight make up the datasets we used. In order to properly see the correlation between combine measurables and rookies’ average fantasy points-per-game, we needed to create comparisons of each combine drill with those of past and present NFL athletes. We found the best way to achieve this was to employ the K-Nearest Neighbor machine learning algorithm for our service.
 
 :wave: use and utilize is the same, utlize is a bit jargony. 
 
