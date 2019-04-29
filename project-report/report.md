@@ -2,15 +2,11 @@
 
 :warning: in review 
 
-:wave: do not use the words above and below to refer to your images, as they are neither on the ceiling, nor on the floow ;-)
-
 :wave: cite that REST figure I can show you how if you point me toward the ref
 
+:question: We made both images from scratch do we need to cite it?
+
 :wave: lets type the equation out and crop it out of the figure. I can showcase this for you if you prefer otherwise look at your classmates papers to see syntax
-
-:wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
-
-:question: ^ fixed?
 
 :question: Any tips for rest of paper?
 
