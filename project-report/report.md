@@ -8,6 +8,8 @@
 
 :wave: lets paraphrase instead of using quotes. Post here if you want help I can showcase in the introduction.
 
+:wave: cite that REST figure
+
 :question: Any tips for rest of paper?
 
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
