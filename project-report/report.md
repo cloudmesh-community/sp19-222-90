@@ -51,9 +51,6 @@ Our project uses information from three data sets consisting of the 2000-2018_NF
 
 From these drills measurables are obtained that can serve as a predictor for the rookies effectiveness in the NFL. For certain positions, like wide receiver, the shuttle run is significant as this drill will often determine whether or not the defender is able to get separation between his defender at the line of scrimmage.  While for other positions like quarterback, the shuttle run has less importance as they are rarely making quick and decisive cuts while playing in NFL games. Due to the difference in how each drill can serve as a predictor for different positions, we found the best way to analyze the incoming rookies within the 2019_NFL_Combine dataset was to compare their performance to previous NFL players within the 2000-2018_NFL_Combine dataset.  From this comparison, our goal was to both rank and predict the average fantasy points-per-game for the incoming rookie class based on how each rookies comparisons performed in the 2001-2018_Fantasy_Football dataset. We found the best way to make  this correlation was to employ the K-Nearest Neighbor machine learning algorithm to for our service.
 
-
-:wave: a few more sentences about the measurables within the data set, why does 40 time matter, bench press?
-
 ## KNN Algorithm
 
 The machine learning technique KNN (K-Nearest Neighbors) is a technique often used for classification or linear regression predictive problems. The algorithm relies on feature similarity, or the process of checking how an input sample will resemble the training set. Using the Euclidean distance formula, KNN calculates which features of the input sample are nearest to the training set. @fig:knn is a graphical illustration of this process.
