@@ -2,11 +2,7 @@
 
 :warning: in review 
 
-:wave: cite that REST figure I can show you how if you point me toward the ref
-
-:question: We made both images from scratch do we need to cite it? Also we added the equation, is that correct form. Its marked with a :wolf::pig::rocket:: in KNN section
-
-:wave: lets type the equation out and crop it out of the figure. I can showcase this for you if you prefer otherwise look at your classmates papers to see syntax
+:question: We made both images from scratch do we need to cite it? :smiley: Nope just making sure you!
 
 :question: Any tips for rest of paper?
 
