@@ -1,7 +1,5 @@
 # Rookie Fantasy Football Point Prediction
 
-:warning: in review 
-
 | Andrew Gotts, Ethan Japundza, Brian Schwantes  
 | adgotts@iu.edu, ejapundz@iu.edu, bschwant@iu.edu  
 | Indiana University
