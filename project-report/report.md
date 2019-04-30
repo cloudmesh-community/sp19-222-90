@@ -2,7 +2,9 @@
 
 :warning: in review 
 
-:question: We made both images from scratch do we need to cite it? :smiley: Nope just making sure you!
+:o: one last read through for polish and you guys should be good. 
+
+:question: We made both images from scratch do we need to cite it? :smiley: Nope just making sure!
 
 :question: Any tips for rest of paper?
 
